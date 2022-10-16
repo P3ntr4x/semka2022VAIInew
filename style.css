@@ -1,0 +1,452 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.hlavicka {
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(3, 5, 25, 3), rgba(3, 5, 25, 0.2)), url("img.png");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+nav {
+    display: flex;
+    padding: 1% 3%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav img {
+    width: 200px;
+}
+
+.menu {
+    flex: 1;
+    text-align: right;
+}
+
+.menu ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 8px 60px;
+    position: relative;
+    transition: 0.5s;
+    border-radius: 10px;
+
+}
+
+.menu ul li:hover {
+    background-color: dimgray;
+    transition: 1s;
+    border-radius: 10px;
+}
+
+.menu ul li a {
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 35px;
+    font-family: "Trebuchet MS";
+}
+
+
+.domov {
+    width: 60%;
+    color: white;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.domov h1 {
+    font-size: 80px;
+}
+
+.domov p {
+    margin: 25px 0 40px;
+}
+
+.tlacidloSteam {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.tlacidloSteam a {
+    text-decoration: none;
+}
+
+/*CSS prebrate z oficialnej stranky rochu som ho ale upravil aby sedelo na moju stranku*/
+.homepage_PlayButton_2yA33 {
+    min-width: 350px;
+    height: 100px;
+    border-radius: 6px;
+    border: 3px solid #ffffff90;
+    box-shadow: 0px 0px 5px #000;
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 30px;
+    cursor: pointer;
+    transition-property: filter, transform, box-shadow;
+    transition-timing-function: ease-in-out;
+    transition-duration: .1s;
+}
+
+.homepage_PlayButton_2yA33:hover {
+    min-width: 350px;
+    height: 100px;
+    background-color: dimgray;
+    transition: 1s;
+}
+
+/*CSS prebrate z oficialnej stranky rochu som ho ale upravil aby sedelo na moju stranku*/
+.homepage_PlayButton_2yA33 .homepage_SteamLogo_2OrkR {
+    width: 70px;
+    height: 70px;
+    margin: 0px 8px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+/*CSS prebrate z oficialnej stranky rochu som ho ale upravil aby sedelo na moju stranku*/
+.homepage_PlayButton_2yA33 .homepage_RightSide_1oC4f {
+    flex-grow: 10;
+    min-height: 0;
+    display: flex;
+    flex-direction: column;
+    margin-right: 12px;
+}
+
+/*CSS prebrate z oficialnej stranky rochu som ho ale upravil aby sedelo na moju stranku*/
+.homepage_PlayButton_2yA33 .homepage_RightSide_1oC4f .homepage_PlayForFree_QtAu0 {
+    font-size: 22px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #fff;
+    text-shadow: 2px 2px 3px #000;
+    font-family: Reaver, serif;
+    font-weight: 600;
+}
+
+/*CSS prebrate z oficialnej stranky rochu som ho ale upravil aby sedelo na moju stranku*/
+.homepage_PlayButton_2yA33 .homepage_RightSide_1oC4f .homepage_Download_T3dgN {
+    font-size: 15px;
+    color: darkgray;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 3px #000;
+}
+
+
+
+
+
+
+
+/* novinky*/
+.novinky {
+    width: 40%;
+    color: white;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: left;
+}
+
+.novinky h1 {
+    font-size: 80px;
+}
+
+.novinky p {
+    margin: 35px 0 40px;
+}
+
+
+
+
+
+
+
+
+
+/*hrdinovia*/
+
+.vsetciHrdinovia1 {
+    width: 250px;
+    margin: auto;
+    text-align: center;
+    padding-top: 125px;
+}
+
+.hrdinaAntiMage {
+    flex-basis: 32%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+.hrdinaAntiMage img {
+    width: 250px;
+}
+
+.hrdinaAntiMage:hover {
+    transform: scale(1.5);
+    transition: 1s;
+}
+
+.hrdinaAntiMage:target {
+    background-color: crimson;
+}
+
+.hrdinaCrystal {
+    flex-basis: 32%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+.hrdinaCrystal img {
+    width: 250px;
+}
+
+.hrdinaCrystal:hover {
+    transform: scale(1.5);
+    transition: 1s;
+}
+
+.hrdinaFurion {
+    flex-basis: 32%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+.hrdinaFurion img {
+    width: 250px;
+}
+
+.hrdinaFurion:hover {
+    transform: scale(1.5);
+    transition: 1s;
+}
+
+.hrdinaJuggernout {
+    flex-basis: 32%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+.hrdinaJuggernout img {
+    width: 250px;
+}
+
+.hrdinaJuggernout:hover {
+    transform: scale(1.5);
+    transition: 1s;
+}
+
+.hrdinaMonkeyKing {
+    flex-basis: 32%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+.hrdinaMonkeyKing img {
+    width: 250px;
+}
+
+.hrdinaMonkeyKing:hover {
+    transform: scale(1.5);
+    transition: 1s;
+}
+
+
+
+
+
+
+
+
+/* turnaje */
+
+.turnaje {
+    width: 60%;
+    color: white;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.turnaje h1 {
+    font-size: 80px;
+}
+
+
+
+
+
+
+
+
+/* rebricek */
+
+.rebricek {
+    width: 60%;
+    color: indianred;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.rebricek h2 {
+    font-size: 80px;
+    font-family: "Trebuchet MS";
+}
+
+.rebricek table {
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+    color: whitesmoke;
+    text-align: center;
+    font-family: "Trebuchet MS";
+}
+
+.rebricek table th{
+    background-color: transparent;
+    padding: 50px 30px 4px 80px;
+    font-size: 20px;
+}
+
+.rebricek table td{
+    border: 1px solid whitesmoke;
+    padding: 4px 8px;
+}
+
+.rebricek table tr:nth-child(odd) td {
+    background-color: dimgray;
+    color: whitesmoke;
+}
+
+.rebricek table tr:nth-child(even) td {
+    background-color: darkgray;
+    color: black;
+}
+
+
+
+
+
+/* diskusne forum */
+
+.forum {
+    width: 60%;
+    color: white;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.forum h1 {
+    font-size: 80px;
+}
+
+
+
+
+
+
+/* responzivny dizajn */
+
+@media (max-width: 992px) {
+    .domov h1 {
+        font-size: 40px;
+    }
+
+    .menu ul li {
+        padding: 8px 40px;
+    }
+
+    .menu ul li a {
+        font-size: 20px;
+    }
+    .rebricek h2 {
+        font-size: 40px;
+    }
+
+    .rebricek table td{
+        display: none;
+    }
+
+    .rebricek table th{
+        display: none;
+    }
+
+    .rebricek table td:nth-child(3){
+        display: block;
+        font-size: 15px;
+    }
+
+    .rebricek table th:nth-child(3){
+        display: block;
+        font-size: 20px;
+    }
+
+}
+
+@media (max-width: 576px) {
+    .domov h1 {
+        font-size: 30px;
+    }
+
+    .menu ul li {
+        padding: 4px 25px;
+    }
+
+    .menu ul li a {
+        font-size: 15px;
+    }
+
+    .rebricek h2 {
+        font-size: 25px;
+    }
+
+    .rebricek table td{
+        display: none;
+    }
+
+    .rebricek table th:nth-child(3){
+        display: block;
+        font-size: 15px;
+    }
+
+    .rebricek table td:nth-child(3){
+        display: block;
+        font-size: 10px;
+    }
+}
