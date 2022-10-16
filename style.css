@@ -388,6 +388,10 @@ nav img {
         font-size: 40px;
     }
 
+    .novinky h1 {
+        font-size: 40px;
+    }
+
     .menu ul li {
         padding: 8px 40px;
     }
@@ -421,6 +425,10 @@ nav img {
 
 @media (max-width: 576px) {
     .domov h1 {
+        font-size: 30px;
+    }
+
+    .novinky h1 {
         font-size: 30px;
     }
 
