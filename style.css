@@ -48,7 +48,7 @@ nav img {
     color: whitesmoke;
     text-decoration: none;
     font-size: 35px;
-    font-family: "Trebuchet MS";
+    font-family: "Trebuchet MS", serif;
 }
 
 
@@ -87,7 +87,7 @@ nav img {
     height: 100px;
     border-radius: 6px;
     border: 3px solid #ffffff90;
-    box-shadow: 0px 0px 5px #000;
+    box-shadow: 0 0 5px #000;
     display: inline-flex;
     flex-direction: row;
     align-items: center;
@@ -109,7 +109,7 @@ nav img {
 .homepage_PlayButton_2yA33 .homepage_SteamLogo_2OrkR {
     width: 70px;
     height: 70px;
-    margin: 0px 8px;
+    margin: 0 8px;
     background-size: contain;
     background-repeat: no-repeat;
 }
@@ -323,7 +323,7 @@ nav img {
 
 .rebricek h2 {
     font-size: 80px;
-    font-family: "Trebuchet MS";
+    font-family: "Trebuchet MS", serif;
 }
 
 .rebricek table {
@@ -332,7 +332,7 @@ nav img {
     border-collapse: collapse;
     color: whitesmoke;
     text-align: center;
-    font-family: "Trebuchet MS";
+    font-family: "Trebuchet MS", serif;
 }
 
 .rebricek table th{
