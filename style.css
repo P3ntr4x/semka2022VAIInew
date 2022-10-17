@@ -169,13 +169,6 @@ nav img {
 }
 
 
-
-
-
-
-
-
-
 /*hrdinovia*/
 
 .vsetciHrdinovia1 {
@@ -191,7 +184,7 @@ nav img {
     margin-bottom: 30px;
     position: relative;
     overflow: hidden;
-    transition: 0.5s;
+    transition: 0.3s;
 }
 
 .hrdinaAntiMage img {
@@ -199,8 +192,8 @@ nav img {
 }
 
 .hrdinaAntiMage:hover {
-    transform: scale(1.5);
-    transition: 1s;
+    transform: scale(1.3);
+    transition: 0.5s;
 }
 
 .hrdinaAntiMage:target {
@@ -213,7 +206,7 @@ nav img {
     margin-bottom: 30px;
     position: relative;
     overflow: hidden;
-    transition: 0.5s;
+    transition: 0.3s;
 }
 
 .hrdinaCrystal img {
@@ -221,8 +214,8 @@ nav img {
 }
 
 .hrdinaCrystal:hover {
-    transform: scale(1.5);
-    transition: 1s;
+    transform: scale(1.3);
+    transition: 0.5s;
 }
 
 .hrdinaFurion {
@@ -231,7 +224,7 @@ nav img {
     margin-bottom: 30px;
     position: relative;
     overflow: hidden;
-    transition: 0.5s;
+    transition: 0.3s;
 }
 
 .hrdinaFurion img {
@@ -239,8 +232,8 @@ nav img {
 }
 
 .hrdinaFurion:hover {
-    transform: scale(1.5);
-    transition: 1s;
+    transform: scale(1.3);
+    transition: 0.5s;
 }
 
 .hrdinaJuggernout {
@@ -249,7 +242,7 @@ nav img {
     margin-bottom: 30px;
     position: relative;
     overflow: hidden;
-    transition: 0.5s;
+    transition: 0.3s;
 }
 
 .hrdinaJuggernout img {
@@ -257,8 +250,8 @@ nav img {
 }
 
 .hrdinaJuggernout:hover {
-    transform: scale(1.5);
-    transition: 1s;
+    transform: scale(1.3);
+    transition: 0.5s;
 }
 
 .hrdinaMonkeyKing {
@@ -267,7 +260,7 @@ nav img {
     margin-bottom: 30px;
     position: relative;
     overflow: hidden;
-    transition: 0.5s;
+    transition: 0.3s;
 }
 
 .hrdinaMonkeyKing img {
@@ -275,8 +268,8 @@ nav img {
 }
 
 .hrdinaMonkeyKing:hover {
-    transform: scale(1.5);
-    transition: 1s;
+    transform: scale(1.3);
+    transition: 0.5s;
 }
 
 
@@ -380,7 +373,7 @@ nav img {
 
 /* responzivny dizajn */
 
-@media (max-width: 992px) {
+@media (max-width: 1080px) {
     .domov h1 {
         font-size: 40px;
     }
@@ -396,26 +389,127 @@ nav img {
     .menu ul li a {
         font-size: 20px;
     }
+
+    .novinky h1 {
+        font-size: 80px;
+        padding-top: 250px;
+    }
+
     .rebricek h2 {
         font-size: 40px;
     }
 
-    .rebricek table td{
-        display: none;
-    }
-
     .rebricek table th{
-        display: none;
-    }
-
-    .rebricek table td:nth-child(3){
-        display: block;
+        background-color: transparent;
+        padding: 20px 30px 4px 40px;
         font-size: 15px;
     }
 
-    .rebricek table th:nth-child(3){
-        display: block;
-        font-size: 20px;
+    .rebricek table td{
+        border: 1px solid whitesmoke;
+        padding: 4px 8px;
+        font-size: 10px;
+    }
+
+    .vsetciHrdinovia1 {
+        width: 200px;
+        margin: auto;
+        text-align: center;
+        padding-top: 75px;
+    }
+
+    .hrdinaAntiMage {
+        flex-basis: 32%;
+        border-radius: 10px;
+        margin-bottom: 30px;
+        position: relative;
+        overflow: hidden;
+        transition: 0.3s;
+    }
+
+    .hrdinaAntiMage img {
+        width: 200px;
+    }
+
+    .hrdinaAntiMage:hover {
+        transform: scale(1.5);
+        transition: 0.5s;
+    }
+
+    .hrdinaAntiMage:target {
+        background-color: crimson;
+    }
+
+    .hrdinaCrystal {
+        flex-basis: 32%;
+        border-radius: 10px;
+        margin-bottom: 30px;
+        position: relative;
+        overflow: hidden;
+        transition: 0.3s;
+    }
+
+    .hrdinaCrystal img {
+        width: 200px;
+    }
+
+    .hrdinaCrystal:hover {
+        transform: scale(1.5);
+        transition: 0.5s;
+    }
+
+    .hrdinaFurion {
+        flex-basis: 32%;
+        border-radius: 10px;
+        margin-bottom: 30px;
+        position: relative;
+        overflow: hidden;
+        transition: 0.3s;
+    }
+
+    .hrdinaFurion img {
+        width: 200px;
+    }
+
+    .hrdinaFurion:hover {
+        transform: scale(1.5);
+        transition: 0.5s;
+    }
+
+    .hrdinaJuggernout {
+        flex-basis: 32%;
+        border-radius: 10px;
+        margin-bottom: 30px;
+        position: relative;
+        overflow: hidden;
+        transition: 0.3s;
+    }
+
+    .hrdinaJuggernout img {
+        width: 200px;
+    }
+
+    .hrdinaJuggernout:hover {
+        transform: scale(1.5);
+        transition: 0.5s;
+    }
+
+    .hrdinaMonkeyKing {
+        flex-basis: 32%;
+        border-radius: 10px;
+        margin-bottom: 30px;
+        position: relative;
+        overflow: hidden;
+        transition: 0.3s;
+    }
+
+    .hrdinaMonkeyKing img {
+        width: 200px;
+    }
+
+    .hrdinaMonkeyKing:hover {
+        transform: scale(1.5);
+        transition: 0.5s;
     }
 
 }
@@ -441,17 +535,109 @@ nav img {
         font-size: 25px;
     }
 
-    .rebricek table td{
-        display: none;
+    .nezobraz1 {
+        display:none;
     }
 
-    .rebricek table th:nth-child(3){
-        display: block;
-        font-size: 15px;
+    .vsetciHrdinovia1 {
+        width: 150px;
+        margin: auto;
+        text-align: center;
+        padding-top: 75px;
     }
 
-    .rebricek table td:nth-child(3){
-        display: block;
-        font-size: 10px;
+    .hrdinaAntiMage {
+        flex-basis: 32%;
+        border-radius: 10px;
+        margin-bottom: 15px;
+        position: relative;
+        overflow: hidden;
+        transition: 0.3s;
     }
+
+    .hrdinaAntiMage img {
+        width: 150px;
+    }
+
+    .hrdinaAntiMage:hover {
+        transform: scale(1.2);
+        transition: 0.5s;
+    }
+
+    .hrdinaAntiMage:target {
+        background-color: crimson;
+    }
+
+    .hrdinaCrystal {
+        flex-basis: 32%;
+        border-radius: 10px;
+        margin-bottom: 15px;
+        position: relative;
+        overflow: hidden;
+        transition: 0.3s;
+    }
+
+    .hrdinaCrystal img {
+        width: 150px;
+    }
+
+    .hrdinaCrystal:hover {
+        transform: scale(1.2);
+        transition: 0.5s;
+    }
+
+    .hrdinaFurion {
+        flex-basis: 32%;
+        border-radius: 10px;
+        margin-bottom: 15px;
+        position: relative;
+        overflow: hidden;
+        transition: 0.3s;
+    }
+
+    .hrdinaFurion img {
+        width: 150px;
+    }
+
+    .hrdinaFurion:hover {
+        transform: scale(1.2);
+        transition: 0.5s;
+    }
+
+    .hrdinaJuggernout {
+        flex-basis: 32%;
+        border-radius: 10px;
+        margin-bottom: 15px;
+        position: relative;
+        overflow: hidden;
+        transition: 0.3s;
+    }
+
+    .hrdinaJuggernout img {
+        width: 150px;
+    }
+
+    .hrdinaJuggernout:hover {
+        transform: scale(1.2);
+        transition: 0.5s;
+    }
+
+    .hrdinaMonkeyKing {
+        flex-basis: 32%;
+        border-radius: 10px;
+        margin-bottom: 15px;
+        position: relative;
+        overflow: hidden;
+        transition: 0.3s;
+    }
+
+    .hrdinaMonkeyKing img {
+        width: 150px;
+    }
+
+    .hrdinaMonkeyKing:hover {
+        transform: scale(1.2);
+        transition: 0.5s;
+    }
+
 }
