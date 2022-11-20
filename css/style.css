@@ -6,7 +6,7 @@
 .hlavicka {
     min-height: 100vh;
     width: 100%;
-    background-image: linear-gradient(rgba(3, 5, 25, 3), rgba(3, 5, 25, 0.2)), url("img.png");
+    background-image: linear-gradient(rgba(3, 5, 25, 3), rgba(3, 5, 25, 0.2)), url("../images/img.png");
     background-position: center;
     background-size: cover;
     position: relative;
@@ -26,6 +26,7 @@ nav img {
 .menu {
     flex: 1;
     text-align: right;
+
 }
 
 .menu ul li {
@@ -35,7 +36,6 @@ nav img {
     position: relative;
     transition: 0.5s;
     border-radius: 10px;
-
 }
 
 .menu ul li:hover {
@@ -47,16 +47,16 @@ nav img {
 .menu ul li a {
     color: whitesmoke;
     text-decoration: none;
-    font-size: 35px;
+    font-size: 20px;
     font-family: "Trebuchet MS", serif;
 }
 
 
 .domov {
-    width: 60%;
+    width: 90%;
     color: white;
     position: absolute;
-    top: 40%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
@@ -67,7 +67,9 @@ nav img {
 }
 
 .domov p {
-    margin: 25px 0 40px;
+    margin: 10px 0 40px;
+    font-size: 16px;
+    color: white;
 }
 
 .tlacidloSteam {
@@ -151,21 +153,23 @@ nav img {
 
 /* novinky*/
 .novinky {
-    width: 40%;
+    width: 90%;
     color: white;
     position: absolute;
-    top: 40%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: left;
+    margin-top: auto;
 }
 
 .novinky h1 {
-    font-size: 80px;
+    font-size: 60px;
+    margin: 0px 80px 40px;
 }
 
 .novinky p {
-    margin: 35px 0 40px;
+    margin: 0px 80px 45px;
 }
 
 
@@ -369,11 +373,29 @@ nav img {
     font-size: 80px;
 }
 
+nav .fa {
+    display: none;
+}
+
+footer {
+    position: absolute;
+    bottom: 0px;
+    background-color: transparent;
+    width: 100%;
+    color: whitesmoke;
+    text-align: center;
+    padding: 16px;
+}
 
 
 /* responzivny dizajn */
 
-@media (max-width: 1080px) {
+@media (max-width: 1440px) {
+
+    nav .fa {
+        display: none;
+    }
+
     .domov h1 {
         font-size: 40px;
     }
@@ -514,21 +536,42 @@ nav img {
 
 }
 
-@media (max-width: 576px) {
+@media (max-width: 700px) {
+
     .domov h1 {
         font-size: 30px;
     }
 
+    .menu ul li {
+        display: block;
+    }
+
+    .menu {
+        position: absolute;
+        background: dimgray;
+        height: 100vh;
+        width: 200px;
+        top: 0;
+        right: -200px;
+        text-align: left;
+        z-index: 2;
+        transition: 1s;
+    }
+
+    nav .fa {
+        display: block;
+        color: white;
+        margin: 10px;
+        font-size: 22px;
+        cursor: pointer;
+    }
+
+    .menu ul {
+        padding: 30px;
+    }
+
     .novinky h1 {
         font-size: 30px;
-    }
-
-    .menu ul li {
-        padding: 4px 25px;
-    }
-
-    .menu ul li a {
-        font-size: 15px;
     }
 
     .rebricek h2 {
