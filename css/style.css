@@ -165,11 +165,11 @@ nav img {
 
 .novinky h1 {
     font-size: 60px;
-    margin: 0px 80px 40px;
+    margin: 0 80px 40px;
 }
 
 .novinky p {
-    margin: 0px 80px 45px;
+    margin: 0 80px 45px;
 }
 
 
@@ -379,7 +379,7 @@ nav .fa {
 
 footer {
     position: absolute;
-    bottom: 0px;
+    bottom: 0;
     background-color: transparent;
     width: 100%;
     color: whitesmoke;
