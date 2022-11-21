@@ -286,8 +286,8 @@ nav img {
 /* turnaje */
 
 .turnaje {
-    width: 60%;
-    color: white;
+    width: 80%;
+    height: 40%;
     position: absolute;
     top: 40%;
     left: 50%;
@@ -318,11 +318,6 @@ nav img {
     text-align: center;
 }
 
-.rebricek h2 {
-    font-size: 80px;
-    font-family: "Trebuchet MS", serif;
-}
-
 .rebricek table {
     margin-left: auto;
     margin-right: auto;
@@ -330,12 +325,16 @@ nav img {
     color: whitesmoke;
     text-align: center;
     font-family: "Trebuchet MS", serif;
+    width: 100%;
 }
 
 .rebricek table th{
     background-color: transparent;
-    padding: 50px 30px 4px 80px;
     font-size: 20px;
+    border: 1px solid whitesmoke;
+    padding: 7px;
+    font-weight: bold;
+    background-color: steelblue;
 }
 
 .rebricek table td{
@@ -343,19 +342,17 @@ nav img {
     padding: 4px 8px;
 }
 
-.rebricek table tr:nth-child(odd) td {
-    background-color: dimgray;
-    color: whitesmoke;
+.rebricek tr:nth-child(even) {
+    background-color: darkslategrey;
 }
 
-.rebricek table tr:nth-child(even) td {
-    background-color: darkgray;
-    color: black;
+.rebricek tr:hover {
+    background-color: black;
 }
 
-
-
-
+.rebricek th:hover {
+    background-color: black;
+}
 
 /* diskusne forum */
 
@@ -417,20 +414,30 @@ footer {
         padding-top: 250px;
     }
 
-    .rebricek h2 {
-        font-size: 40px;
-    }
-
     .rebricek table th{
         background-color: transparent;
-        padding: 20px 30px 4px 40px;
-        font-size: 15px;
+        font-size: 20px;
+        border: 1px solid whitesmoke;
+        padding: 7px;
+        font-weight: bold;
+        background-color: steelblue;
     }
 
     .rebricek table td{
         border: 1px solid whitesmoke;
         padding: 4px 8px;
-        font-size: 10px;
+    }
+
+    .rebricek tr:nth-child(even) {
+        background-color: darkslategrey;
+    }
+
+    .rebricek tr:hover {
+        background-color: black;
+    }
+
+    .rebricek th:hover {
+        background-color: black;
     }
 
     .vsetciHrdinovia1 {
@@ -574,8 +581,31 @@ footer {
         font-size: 30px;
     }
 
-    .rebricek h2 {
-        font-size: 25px;
+    .rebricek table th{
+        background-color: transparent;
+        font-size: 10px;
+        border: 1px solid whitesmoke;
+        padding: 1px;
+        font-weight: bold;
+        background-color: steelblue;
+    }
+
+    .rebricek table td{
+        border: 1px solid whitesmoke;
+        padding: 1px 1px;
+        font-size: 10px;
+    }
+
+    .rebricek tr:nth-child(even) {
+        background-color: darkslategrey;
+    }
+
+    .rebricek tr:hover {
+        background-color: black;
+    }
+
+    .rebricek th:hover {
+        background-color: black;
     }
 
     .nezobraz1 {

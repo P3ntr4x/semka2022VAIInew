@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <meta charset='utf-8'>
+<link rel="icon" type="image/x-icon" href="../images/ikona.ico"/>
 <header></header>
 <body>
 <div class="hlavicka">
@@ -20,96 +21,18 @@
     <i class="fa fa-bars" onclick="zobrazMenu()"></i>
   </nav>
   <div class="rebricek">
-    <h2>Rebríček hráčov</h2>
     <table>
-      <tr>
-        <th>Poradie</th>
-        <th>Meno hráča</th>
-        <th>Nickname</th>
-        <th>Tím hráča</th>
-        <th>W/L</th>
-        <th>Počet bodov</th>
-      </tr>
-      <tr>
-        <td>1</td>
-        <td>Johnatan Anghberg</td>
-        <td>"Lod[A]"</td>
-        <td class="nezobraz1">Alliance</td>
-        <td class="nezobraz1">658 / 231</td>
-        <td class="nezobraz1">10458</td>
-      </tr>
-      <tr>
-        <td>2</td>
-        <td>Cheng Jin Xiang</td>
-        <td>"NothingToSay"</td>
-        <td class="nezobraz1">PSG-LGD</td>
-        <td class="nezobraz1">452 / 358</td>
-        <td class="nezobraz1">9254</td>
-      </tr>
-      <tr>
-        <td>3</td>
-        <td>Zhang Ruida</td>
-        <td>"Faith Bian"</td>
-        <td class="nezobraz1">PSG-LGD</td>
-        <td class="nezobraz1">324 / 198</td>
-        <td class="nezobraz1">9125</td>
-      </tr>
-      <tr>
-        <td>4</td>
-        <td>Zhao Zixing</td>
-        <td>"XinQ"</td>
-        <td class="nezobraz1">PSG-LGD</td>
-        <td class="nezobraz1">857 / 425</td>
-        <td class="nezobraz1">8924</td>
-      </tr>
-      <tr>
-        <td>5</td>
-        <td>Yaroslav Naidenov</td>
-        <td>"Miposhka"</td>
-        <td class="nezobraz1">Spirit</td>
-        <td class="nezobraz1">658 / 231</td>
-        <td class="nezobraz1">8910</td>
-      </tr>
-      <tr>
-        <td>6</td>
-        <td>Alexander Khertek</td>
-        <td>"TORONTOTOKYO"</td>
-        <td class="nezobraz1">Spirit</td>
-        <td class="nezobraz1">658 / 231</td>
-        <td class="nezobraz1">7852</td>
-      </tr>
-      <tr>
-        <td>7</td>
-        <td>Ilya Mulyarchuk</td>
-        <td>"Yatoro"</td>
-        <td class="nezobraz1">Spirit</td>
-        <td class="nezobraz1">542 / 124</td>
-        <td class="nezobraz1">7813</td>
-      </tr>
-      <tr>
-        <td>8</td>
-        <td>Magomed  Khalilov</td>
-        <td>"collapse"</td>
-        <td class="nezobraz1">Spirit</td>
-        <td class="nezobraz1">896 / 658</td>
-        <td class="nezobraz1">7812</td>
-      </tr>
-      <tr>
-        <td>9</td>
-        <td>Miroslaw Kolpakov</td>
-        <td>"Mira"</td>
-        <td class="nezobraz1">Spirit</td>
-        <td class="nezobraz1">458 / 300</td>
-        <td class="nezobraz1">7785</td>
-      </tr>
-      <tr>
-        <td>10</td>
-        <td>Clement Ivanov</td>
-        <td>"Puppey"</td>
-        <td class="nezobraz1">Secret</td>
-        <td class="nezobraz1">254 / 91</td>
-        <td class="nezobraz1">7541</td>
-      </tr>
+      <thead>
+        <tr>
+          <th>Meno</th>
+          <th>Nickname</th>
+          <th>Tim</th>
+          <th onclick="sortColumn('Wins')">Wins</th>
+          <th onclick="sortColumn('Losses')">Losses</th>
+          <th onclick="sortColumn('ELO')">ELO</th>
+        </tr>
+      </thead>
+      <tbody id="tableData"></tbody>
     </table>
   </div>
 </div>
