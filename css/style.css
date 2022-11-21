@@ -373,6 +373,63 @@ nav .fa {
     display: none;
 }
 
+/* signup */
+
+.signup-form-form {
+    display: flex;
+    justify-content: center;
+}
+
+.signup-form h1 {
+    text-align: center;
+    color: whitesmoke;
+    font-size: 80px;
+    padding-bottom: 50px;
+    font-family: "Trebuchet MS", serif;
+}
+
+.signup-form p {
+    text-align: center;
+    padding-bottom: 40px;
+    color: #007ecc;
+}
+
+.signup-form form {
+    width: 30%;
+}
+
+.signup-form form input {
+    width: calc(100% - 16px);
+    padding: 6px;
+    margin-bottom: 4px;
+    font-family: "Trebuchet MS", serif;
+}
+
+.signup-form form button {
+    display: block;
+    padding: 10px 20px;
+    margin: 10px auto;
+    cursor: pointer;
+    font-family: "Trebuchet MS", serif;
+}
+
+/* login */
+
+.login {
+    width: 60%;
+    color: white;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.login h1 {
+    font-size: 80px;
+}
+
+
 footer {
     position: absolute;
     bottom: 0;

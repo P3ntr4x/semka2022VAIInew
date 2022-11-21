@@ -1,7 +1,6 @@
 <?php
-    include_once "header.php"
+    include_once "header.php";
 ?>
-
 <div class="domov">
     <h1>"Moderná multiplayerová hra"</h1>
     <p>Lorem Ipsum je fiktívny text, používaný pri návrhu tlačovín a typografie. Lorem Ipsum je štandardným
