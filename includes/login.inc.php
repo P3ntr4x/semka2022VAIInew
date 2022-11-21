@@ -6,7 +6,7 @@ if (isset($_POST["submit"])) {
     $pwd = $_POST["pwd"];
 
     require_once "dbh.inc.php";
-    require_once "functions.inc.php";
+    require_once "funkcieNaOsetrenie.inc.php";
 
     if (emptyInputLogin($username, $pwd) !== false) {
         header("location: ../php/login.php?error=emptyinput");

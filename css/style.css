@@ -175,111 +175,29 @@ nav img {
 
 /*hrdinovia*/
 
-.vsetciHrdinovia1 {
-    width: 250px;
-    margin: auto;
-    text-align: center;
-    padding-top: 125px;
-}
-
-.hrdinaAntiMage {
-    flex-basis: 32%;
-    border-radius: 10px;
-    margin-bottom: 30px;
-    position: relative;
+.stlpec {
+    width: 19%;
+    float: left;
+    padding-left: 4%;
+    padding-top:  10%;
     overflow: hidden;
     transition: 0.3s;
 }
 
-.hrdinaAntiMage img {
-    width: 250px;
+.riadok::after {
+    content: "";
+    clear: both;
+    display: table;
 }
 
-.hrdinaAntiMage:hover {
-    transform: scale(1.3);
+.stlpec:hover {
+    transform: scale(1.12);
     transition: 0.5s;
 }
 
-.hrdinaAntiMage:target {
+.stlpec:target {
     background-color: crimson;
 }
-
-.hrdinaCrystal {
-    flex-basis: 32%;
-    border-radius: 10px;
-    margin-bottom: 30px;
-    position: relative;
-    overflow: hidden;
-    transition: 0.3s;
-}
-
-.hrdinaCrystal img {
-    width: 250px;
-}
-
-.hrdinaCrystal:hover {
-    transform: scale(1.3);
-    transition: 0.5s;
-}
-
-.hrdinaFurion {
-    flex-basis: 32%;
-    border-radius: 10px;
-    margin-bottom: 30px;
-    position: relative;
-    overflow: hidden;
-    transition: 0.3s;
-}
-
-.hrdinaFurion img {
-    width: 250px;
-}
-
-.hrdinaFurion:hover {
-    transform: scale(1.3);
-    transition: 0.5s;
-}
-
-.hrdinaJuggernout {
-    flex-basis: 32%;
-    border-radius: 10px;
-    margin-bottom: 30px;
-    position: relative;
-    overflow: hidden;
-    transition: 0.3s;
-}
-
-.hrdinaJuggernout img {
-    width: 250px;
-}
-
-.hrdinaJuggernout:hover {
-    transform: scale(1.3);
-    transition: 0.5s;
-}
-
-.hrdinaMonkeyKing {
-    flex-basis: 32%;
-    border-radius: 10px;
-    margin-bottom: 30px;
-    position: relative;
-    overflow: hidden;
-    transition: 0.3s;
-}
-
-.hrdinaMonkeyKing img {
-    width: 250px;
-}
-
-.hrdinaMonkeyKing:hover {
-    transform: scale(1.3);
-    transition: 0.5s;
-}
-
-
-
-
-
 
 
 
@@ -443,7 +361,7 @@ footer {
 
 /* responzivny dizajn */
 
-@media (max-width: 1440px) {
+@media (max-width: 1080px) {
 
     nav .fa {
         display: none;
@@ -495,110 +413,26 @@ footer {
         background-color: black;
     }
 
-    .vsetciHrdinovia1 {
-        width: 200px;
+    .stlpec {
+        width: 225px;
         margin: auto;
         text-align: center;
-        padding-top: 75px;
+        padding-top: 150px;
+        padding-left: 25px;
     }
 
-    .hrdinaAntiMage {
+    .riadok {
         flex-basis: 32%;
         border-radius: 10px;
         margin-bottom: 30px;
         position: relative;
         overflow: hidden;
         transition: 0.3s;
-    }
-
-    .hrdinaAntiMage img {
-        width: 200px;
-    }
-
-    .hrdinaAntiMage:hover {
-        transform: scale(1.5);
-        transition: 0.5s;
-    }
-
-    .hrdinaAntiMage:target {
-        background-color: crimson;
-    }
-
-    .hrdinaCrystal {
-        flex-basis: 32%;
-        border-radius: 10px;
-        margin-bottom: 30px;
-        position: relative;
-        overflow: hidden;
-        transition: 0.3s;
-    }
-
-    .hrdinaCrystal img {
-        width: 200px;
-    }
-
-    .hrdinaCrystal:hover {
-        transform: scale(1.5);
-        transition: 0.5s;
-    }
-
-    .hrdinaFurion {
-        flex-basis: 32%;
-        border-radius: 10px;
-        margin-bottom: 30px;
-        position: relative;
-        overflow: hidden;
-        transition: 0.3s;
-    }
-
-    .hrdinaFurion img {
-        width: 200px;
-    }
-
-    .hrdinaFurion:hover {
-        transform: scale(1.5);
-        transition: 0.5s;
-    }
-
-    .hrdinaJuggernout {
-        flex-basis: 32%;
-        border-radius: 10px;
-        margin-bottom: 30px;
-        position: relative;
-        overflow: hidden;
-        transition: 0.3s;
-    }
-
-    .hrdinaJuggernout img {
-        width: 200px;
-    }
-
-    .hrdinaJuggernout:hover {
-        transform: scale(1.5);
-        transition: 0.5s;
-    }
-
-    .hrdinaMonkeyKing {
-        flex-basis: 32%;
-        border-radius: 10px;
-        margin-bottom: 30px;
-        position: relative;
-        overflow: hidden;
-        transition: 0.3s;
-    }
-
-    .hrdinaMonkeyKing img {
-        width: 200px;
-    }
-
-    .hrdinaMonkeyKing:hover {
-        transform: scale(1.5);
-        transition: 0.5s;
     }
 
 }
 
-@media (max-width: 700px) {
+@media (max-width: 576px) {
 
     .domov h1 {
         font-size: 30px;
@@ -666,14 +500,14 @@ footer {
         display:none;
     }
 
-    .vsetciHrdinovia1 {
-        width: 150px;
-        margin: auto;
+    .stlpec {
+        width: 95%;
+        margin: auto ;
         text-align: center;
-        padding-top: 75px;
+        padding-top: 15px;
     }
 
-    .hrdinaAntiMage {
+    .riadok {
         flex-basis: 32%;
         border-radius: 10px;
         margin-bottom: 15px;
@@ -682,89 +516,5 @@ footer {
         transition: 0.3s;
     }
 
-    .hrdinaAntiMage img {
-        width: 150px;
-    }
-
-    .hrdinaAntiMage:hover {
-        transform: scale(1.2);
-        transition: 0.5s;
-    }
-
-    .hrdinaAntiMage:target {
-        background-color: crimson;
-    }
-
-    .hrdinaCrystal {
-        flex-basis: 32%;
-        border-radius: 10px;
-        margin-bottom: 15px;
-        position: relative;
-        overflow: hidden;
-        transition: 0.3s;
-    }
-
-    .hrdinaCrystal img {
-        width: 150px;
-    }
-
-    .hrdinaCrystal:hover {
-        transform: scale(1.2);
-        transition: 0.5s;
-    }
-
-    .hrdinaFurion {
-        flex-basis: 32%;
-        border-radius: 10px;
-        margin-bottom: 15px;
-        position: relative;
-        overflow: hidden;
-        transition: 0.3s;
-    }
-
-    .hrdinaFurion img {
-        width: 150px;
-    }
-
-    .hrdinaFurion:hover {
-        transform: scale(1.2);
-        transition: 0.5s;
-    }
-
-    .hrdinaJuggernout {
-        flex-basis: 32%;
-        border-radius: 10px;
-        margin-bottom: 15px;
-        position: relative;
-        overflow: hidden;
-        transition: 0.3s;
-    }
-
-    .hrdinaJuggernout img {
-        width: 150px;
-    }
-
-    .hrdinaJuggernout:hover {
-        transform: scale(1.2);
-        transition: 0.5s;
-    }
-
-    .hrdinaMonkeyKing {
-        flex-basis: 32%;
-        border-radius: 10px;
-        margin-bottom: 15px;
-        position: relative;
-        overflow: hidden;
-        transition: 0.3s;
-    }
-
-    .hrdinaMonkeyKing img {
-        width: 150px;
-    }
-
-    .hrdinaMonkeyKing:hover {
-        transform: scale(1.2);
-        transition: 0.5s;
-    }
 
 }

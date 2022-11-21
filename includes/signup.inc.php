@@ -9,7 +9,7 @@ if (isset($_POST["submit"])) {
     $pwdRepeat = $_POST["pwdrepeat"];
 
     require_once  "dbh.inc.php";
-    require_once  "functions.inc.php";
+    require_once "funkcieNaOsetrenie.inc.php";
 
     if (emptyInputSignup($name, $email, $username, $pwd, $pwdRepeat ) !== false) {
         header("location: ../php/signup.php?error=emptyinput");
