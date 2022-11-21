@@ -334,7 +334,6 @@ nav img {
     border: 1px solid whitesmoke;
     padding: 7px;
     font-weight: bold;
-    background-color: steelblue;
 }
 
 .rebricek table td{
@@ -415,7 +414,6 @@ footer {
     }
 
     .rebricek table th{
-        background-color: transparent;
         font-size: 20px;
         border: 1px solid whitesmoke;
         padding: 7px;
@@ -582,7 +580,6 @@ footer {
     }
 
     .rebricek table th{
-        background-color: transparent;
         font-size: 10px;
         border: 1px solid whitesmoke;
         padding: 1px;
