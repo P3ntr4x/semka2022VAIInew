@@ -5,7 +5,7 @@ if (isset($_POST["submit"])) {
     $username = $_POST["uid"];
     $pwd = $_POST["pwd"];
 
-    require_once "dbh.inc.php";
+    require_once "dbPripojenie.php";
     require_once "funkcieNaOsetrenie.inc.php";
 
     if (emptyInputLogin($username, $pwd) !== false) {
