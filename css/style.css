@@ -283,8 +283,12 @@ nav img {
     text-align: center;
 }
 
-.forum h1 {
+h1 {
     font-size: 80px;
+    text-align: center;
+    color: whitesmoke;
+    font-family: "Trebuchet MS", serif;
+
 }
 
 nav .fa {
@@ -309,7 +313,8 @@ nav .fa {
 .signup-form p {
     text-align: center;
     padding-bottom: 40px;
-    color: #007ecc;
+    color: lightgreen;
+    font-family: "Trebuchet MS", serif;
 }
 
 .signup-form form {
